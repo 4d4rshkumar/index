@@ -1,0 +1,105 @@
+/* 16px=100%=1em*/
+/*em is deendent of parent fornt size so we use "rem" for avoiding error ot do not uses parent fornt*/
+
+body{
+  margin: 0;
+  font-family:sans-serif;
+}
+h1{
+  margin: 0;
+  font-family: 'Marck Script', cursive;
+  font-size: 90px;
+  color: #66bfbf;
+  line-height: 2;/*increses the space form bottom and top*/
+
+}
+h2{
+  margin: 0;
+  font-weight: normal;
+  color: #66bfbf;
+  font-size: 2.5rem;
+}
+
+h3{
+  color: #11999E;
+}
+hr{
+  width: 10%;
+  border-style: dotted;
+  border-width: 10px 0 0;
+  color: #eaf6f6;
+}
+.top{
+  background-color: #e3fdfd;
+  text-align: center;
+  position:relative;
+  padding: 10px;
+}
+div{
+  text-align: center;
+  position:relative;
+  padding: 40px;
+}
+.bottom-container{
+  background-color: #66bfbf;
+  text-decoration: none;
+  color: white;
+}
+.btn{
+  text-decoration: none;
+  padding: 10px;
+  background-color: #66bfbf;
+  border-radius: 7px;
+  color: white;
+}
+.btn:hover{
+  color: white;
+  background-color: #11999e;
+
+}
+.cld1{
+  position: relative;
+  left: 200px;
+  top:4px;
+}
+.cld2{
+  position: absolute;
+  left: 300px;
+}
+.footer-link{
+  text-decoration: none;
+  color: #11999e;
+  font-size: 1rem;
+  padding: 10px;
+}
+.footer-link:hover{
+  color: white;
+}
+.mnt1{
+  position: relative;
+}
+
+.pp{
+  border-radius: 20%
+}
+.sty{
+  font-weight: bolder;
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skimg1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skimg2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
